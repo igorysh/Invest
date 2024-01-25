@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Cygre;
+    src: url(./Cygre-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Cygre;
+    src: url(./Cygre-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Cygre;
+    src: url(./Cygre-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Cygre-Book;
+    src: url(./Cygre-Book.ttf);
+}
+
+@font-face {
+    font-family: Cygre;
+    src: url(./Cygre-SemiBold.ttf);
+    font-weight: 600;
+}

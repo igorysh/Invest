@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Вадим Дорошенко - фахівець з фінансового планування</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="assets/js/maskinput.js"></script>
+</head>
+<body>
+    <header class="invest--section header">
+        <div class="container">
+            <a class="header_logo" href="#"><svg><use xlink:href="./assets/img/sprite.svg#logo"></use></svg></a>
+            <!--<div class="header__nav--menu">
+                <ul>
+                    <li><a href="#for">Для кого</a></li>
+                    <li><a href="#">Про мою роботу</a></li>
+                </ul>
+            </div>-->
+            <a class="header_btn" href="#free-consult">Безкоштовна консультація</a>
+        </div>
+    </header>
+    <section class="invest--section hero">
+        <div class="graphik_wrap">
+            <picture>
+                <source srcset="./assets/img/graphik_mobi.webp" media="(min-width: 370px) and (max-width: 850px)">
+                <img src="./assets/img/graphik.webp" alt="">
+            </picture>
+        </div>
+        <div class="container">
+            <div class="hero_name">
+                <img class="man" src="./assets/img/man.webp" alt="">
+                <div class="hero_name_wrap">
+                    <span>Вадим Дорошенко</span>
+                    <small>фахівець з фінансового планування</small>
+                </div>
+            </div>
+            <div class="hero_info">
+                <h1>Почніть інвестувати</h1>
+                <span>з чітким фінансовим планом, та індивідуально розробленою стратегією під ваші цілі</span>
+                <a href="#free-consult">Безкоштовна консультація</a>
+            </div>
+        </div>
+    </section>
+    <section class="invest--section advantages">
+        <div class="container">
+            <div class="advantages--wrap">
+                <div class="advantages_item">
+                    <div class="advantages_item_wrap">
+                        <svg class="advantages_item_img elipse"><use xlink:href="./assets/img/sprite.svg#elipse"></use></svg>
+                        <span>6+</span>
+                    </div>
+                    <small>років професійно займаюся інвестиціями</small>
+                </div>
+                <div class="advantages_item">
+                    <div class="advantages_item_wrap">
+                        <svg class="advantages_item_img money"><use xlink:href="./assets/img/sprite.svg#money"></use></svg>
+                        <span>500+</span>
+                    </div>
+                    <small>провів індивідуальних консультацій</small>
+                </div>
+                <div class="advantages_item">
+                    <div class="advantages_item_wrap">
+                        <svg class="advantages_item_img bag"><use xlink:href="./assets/img/sprite.svg#bag"></use></svg>
+                        <span>200+</span>
+                    </div>
+                    <small>створив прибуткових планів з інвестування для своїх клієнтів</small>
+                </div>
+                <div class="advantages_item">
+                    <div class="advantages_item_wrap">
+                        <svg class="advantages_item_img people"><use xlink:href="./assets/img/sprite.svg#people"></use></svg>
+                        <span>37</span>
+                    </div>
+                    <small>клієнтів у постійному супроводі</small>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="for" class="invest--section consultation">
+        <img src="./assets/img/consultation.webp" alt="">
+        <div class="container">
+            <div class="consultation_title">Вам просто необхідна консультація, якщо ви:</div>
+            <div class="consultation_cards">
+                <div class="consultation_item">
+                    <div class="consultation_item_number">01</div>
+                    <span>Хочете почати інвестувати, але не знаєте, що робити.</span>
+                </div>
+                <div class="consultation_item">
+                    <div class="consultation_item_number">02</div>
+                    <span>Вже активно інвестуєте, але робите це без стратегії, а просто на удачу.</span>
+                </div>
+                <div class="consultation_item">
+                    <div class="consultation_item_number">03</div>
+                    <span>Хочете поставити фінансову ціль і мати чіткий план, як до неї дійти.</span>
+                </div>
+                <div class="consultation_item">
+                    <div class="consultation_item_number">04</div>
+                    <span>Бажаєте створити капітал і назавжди закрити питання по фінансам.</span>
+                </div>
+            </div>
+            <div class="consultation_carefully">
+                <div class="consultation_carefully_img"></div>
+                <span>Але, якщо ви шукаєте кнопку “бабло”, або “тємку” і не готові до довгострокових інвестицій, які принесуть вам стабільний пасивний дохід, то вам не до мене!</span>
+            </div>
+            <a class="consultation_btn" href="#form-consult">Записатися на консультацію</a>
+        </div>
+    </section>
+    <section id="free-consult" class="invest--section questions">
+        <div class="container">
+            <div class="questions_title">Що ви дізнаєтесь на безкоштовній консультації?</div>
+            <div class="questions_info">
+                <div class="questions_info--left">
+                    <div class="questions_info--item">
+                        <div class="questions_info--item__number">01</div>
+                        <span>Що таке інвестування</span>
+                    </div>
+                    <div class="questions_info--item">
+                        <div class="questions_info--item__number">03</div>
+                        <span>Що потрібно для того, щоб розпочати.</span>
+                    </div>
+                    <div class="questions_info--item">
+                        <div class="questions_info--item__number">05</div>
+                        <span>Які є ризики.</span>
+                    </div>
+                    <div class="questions_info--item">
+                        <div class="questions_info--item__number">07</div>
+                        <span>Чим я можу вам допомогти та умови співпраці.</span>
+                    </div>
+                </div>
+                <img class="line" src="./assets/img/line.webp" alt="">
+                <img class="line_mobi" src="./assets/img/line_mobi.webp" alt="">
+                <div class="questions_info--right">
+                    <div class="questions_info--item">
+                        <div class="questions_info--item__number">02</div>
+                        <span>У що можна інвестувати українцям в 2023 році.</span>
+                    </div>
+                    <div class="questions_info--item">
+                        <div class="questions_info--item__number">04</div>
+                        <span>ТОП 5 інструментів для інвестицій.</span>
+                    </div>
+                    <div class="questions_info--item">
+                        <div class="questions_info--item__number">06</div>
+                        <span>Яка середня прибутковість по інструментам.</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="invest--section my_task">
+        <img class="my_task_graph" src="./assets/img/graphik.webp" alt="">
+        <div class="container">
+            <div class="my_task--info">
+                <div class="my_task--info__title">Моя задача - прибутковість ваших інвестицій! </div>
+                <span>Я незалежний консультант з фінансового планування. Я не представляю інтереси якихось конкретних компаній і не буду давати вам реферальні посилання.</span>
+                <p><span>Скільки грошей потрібно для ефективного старту?</span><br> Починати можна з будь-якої суми. Важлива не сумма, а як регулярно Ви будете робити інвестиції. Ефективно починати з 3 000 доларів капіталу на старті та 500 доларів інвестицій щомісяця.</p>
+            </div>
+            <div class="my_task_img">
+                <picture>
+                    <source srcset="./assets/img/test_man.webp" media="(min-width: 370px) and (max-width: 1024px)">
+                    <img src="./assets/img/man_2.webp" alt="">
+                </picture>
+            </div>
+            
+        </div>
+    </section>
+    <section id="form-consult" class="invest--section invest">
+        <div class="container">
+            <div class="invest__title">
+                <span>Почніть свій шлях в інвестиціях</span>
+                <p>Якщо ви хочете почати свій шлях до забезпеченного майбутнього, заповнюйте форму нижче і записуйтесь на безкоштовну консультацію.</p>
+            </div>
+            <form method="post" action="assets/php/mail.php" class="invest__form">
+                <label class="form--name"><input name="name" type="text" placeholder="Ім'я"></label>
+                <label class="form--phone"><input id="tel" name="phone" type="tel" placeholder="+38 055 555 22 20"></label>
+                <label class="form--email"><input name="email" type="email"  placeholder="E-mail*"></label>
+                <button>Записатися</button>
+                <div class="invest__form--info">
+                    <span>Залишилося</span>
+                    <small><svg><use xlink:href="./assets/img/sprite.svg#human"></use></svg>5</small>
+                    <span>місць</span>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <footer class="invest--section footer">
+        <div class="container">
+            <a class="footer_logo" href="policy.html">Політика конфіденційності</a>
+            <span>Doroshenko Invest 2023</span>
+            <div class="footer_socials">
+                <a href="https://www.facebook.com/doroshenko.vadym" target="_blank"><svg><use xlink:href="assets/img/sprite.svg#facebook"></use></svg></a>
+                <a href="https://t.me/Vadym_Doroshenko" target="_blank"><svg><use xlink:href="assets/img/sprite.svg#telegram"></use></svg></a>
+                <a href="https://www.instagram.com/vadym_doroshenko_/" target="_blank"><svg><use xlink:href="assets/img/sprite.svg#instagram"></use></svg></a>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/main.js" type="text/javascript"></script>
+    <script type="text/javascript">
+       jQuery(function($){
+        $("#tel").mask("+38 (999) 999-99-99");
+       });
+    </script>
+</body>
+</html>
